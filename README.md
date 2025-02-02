@@ -1,7 +1,7 @@
 
-<h1 align="center" style="font-weight: bold;">chleoz C-PANEL CHECKER 💻</h1>
+<h1 align="center" style="font-weight: bold;">chleoz C-PANEL CHECKER v2 💻</h1>
 
-<p align="center">Cpanel url | username | pass checker</p>
+<p align="center">Cpanel url : username : pass checker</p>
 
 
 <p align="center">
@@ -30,7 +30,7 @@ Here you list all prerequisites necessary for running your project. For example:
 How to clone your project
 
 ```bash
-git clone https://github.com/chleoz/cpanel-checker.git
+git clone https://github.com/chleoz/cpanel-checker-v2.git
 ```
  
 <h3>Starting</h3>
@@ -40,5 +40,5 @@ How to start your project
 ```bash
 cd cpanel-checker
 pip3 install -r requirements.txt
-python3 chleozchecker.py urllist.txt threadnumber
+python3 chleozcheckerv2.py urllist.txt threadnumber
 ```

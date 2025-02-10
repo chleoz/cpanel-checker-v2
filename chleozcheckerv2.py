@@ -66,7 +66,7 @@ def main():
             lines = f.readlines()
             for line in lines:
                 if '|' not in line:
-                    print("Dosyanın her satırında '|' karakteri ile ayrılmış URL, kullanıcı adı ve parola olmalıdır.")
+                    print("Dosyanın her satırında ':' karakteri ile ayrılmış URL, kullanıcı adı ve parola olmalıdır.")
                     return
             accounts_list = [line.strip() for line in lines]  
     except FileNotFoundError:

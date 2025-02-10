@@ -65,7 +65,7 @@ def main():
         with open(file, 'r') as f:
             lines = f.readlines()
             for line in lines:
-                if '|' not in line:
+                if ':' not in line:
                     print("Dosyanın her satırında ':' karakteri ile ayrılmış URL, kullanıcı adı ve parola olmalıdır.")
                     return
             accounts_list = [line.strip() for line in lines]  
